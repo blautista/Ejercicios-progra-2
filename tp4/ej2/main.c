@@ -51,6 +51,7 @@ void arr_max_void(int * arr, int n, int max) {
 }
 
 void test() {
+    printf("PRODUCTO 7 * 3: %d\n", producto(7, 3)); //21
     printf("COCIENTE 7/3: %d\n", cociente(7, 3)); //2
     printf("RESTO 7/3: %d\n", resto(7, 3)); //1
     printf("COCIENTE 24/16: %d\n", cociente(24, 16)); //1
